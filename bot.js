@@ -22,7 +22,7 @@ client.login(process.env.BOT_TOKEN);
 
 
 
-clien.on('message', message => {
+client.on('message', message => {
       if(message.content == 'قران1'){
         message.react('🔊')}  return;
   const ytdl = require('ytdl-core');
