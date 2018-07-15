@@ -8,6 +8,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const client = new Discord.Client();
 const prefix = '.'
+const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
